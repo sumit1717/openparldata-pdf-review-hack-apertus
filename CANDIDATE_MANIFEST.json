@@ -1,9 +1,9 @@
 {
-  "profile": "openparldata-pdf-review-documentation-cleanup-candidate-1",
+  "profile": "openparldata-pdf-review-publication-status-report-revision-1",
   "project": "OpenParlData PDF Review",
   "entrant_and_team": "Sumit Aswal",
   "swiss_student_team": false,
-  "status": "local_release_candidate_not_uploaded_not_submission_ready",
+  "status": "published_source_submission_pending_evaluation_incomplete",
   "public_repository": "https://github.com/sumit1717/openparldata-pdf-review-hack-apertus",
   "public_template_starter_commit": "58272f3575871c894a9dbe381319c86fded26223",
   "source_baseline_manifest_sha256": "beebf6cd62cd83038ae0b57ebc5c1346bde85196a838ef10e030c7590f77d4f1",
@@ -21,7 +21,7 @@
     "real_pdf_provider_chain": false,
     "human_gold_complete": false,
     "cross_parliament_baseline_complete": false,
-    "source_upload_completed": false,
+    "source_upload_completed": true,
     "submission_completed": false,
     "historical_component_mock_checks_only": {
       "authored_tests": 38,
@@ -109,24 +109,24 @@
       "sha256": "d24c92d5ede30b29c4637e8f398a00f8b9da39c885f89f2e7833634313dfa44f"
     },
     "README.md": {
-      "bytes": 2357,
-      "sha256": "102c972536a00dffe777ad9ab9229008f30446b18867a03e4514d86e06536642"
+      "bytes": 2588,
+      "sha256": "1d59e20cee6192d3926a720abd33321e35c17fab152b76568f0ecc7f7eb0e6b5"
     },
     "SOURCE_PINS.json": {
-      "bytes": 13561,
-      "sha256": "b5f74b3f63c1dac8f5fea0f089cfc0fbcc695858dbb16f849372618e63a0715f"
+      "bytes": 14148,
+      "sha256": "276c23f7aea42c16efb294cd944de642e0e31262ef86acdf210a486cd5f3dd91"
     },
     "track_2a/Makefile": {
       "bytes": 1125,
       "sha256": "7d3ab2405914128eda0c8e7a4ca98fcab94773ecec980db38b86d78cab2796d5"
     },
     "track_2a/README.md": {
-      "bytes": 7330,
-      "sha256": "d6048db1ceb0c4cb0f6b5c66ad245ed1e12912604fd96003c70758f54b284f52"
+      "bytes": 7552,
+      "sha256": "0eca9190dca122c0d19a8f005434018f38ea357bbb8d06bc8547281a62f38f30"
     },
     "track_2a/Sumit_Aswal_Report.pdf": {
-      "bytes": 61756,
-      "sha256": "64b91106414caec221eadc1dcbcedbcea4a73f282938af91f97d8d3e995aa7aa"
+      "bytes": 61775,
+      "sha256": "eb1d0709bf61f03cf708b59bef0734aa84660cfcf527303de928ee7a8c0fd9db"
     },
     "track_2a/data/README.md": {
       "bytes": 1427,
@@ -137,8 +137,8 @@
       "sha256": "02c151461cda1404df0e562ca8d894304e2a0602f05912f42f4b329d2dc806f3"
     },
     "track_2a/docs/DEPENDENCIES_AND_ATTRIBUTION.md": {
-      "bytes": 2448,
-      "sha256": "f6c9afd5fda1f4f9fd65498c95ffe14f98c702acfed6c152af34155c607748a7"
+      "bytes": 2599,
+      "sha256": "847395f589a86772b26352da21eda3a7be964ac450b7b0ad04570df3a5b9a618"
     },
     "track_2a/docs/GUARDED_TESTS.md": {
       "bytes": 1950,
@@ -153,8 +153,8 @@
       "sha256": "b3d4111e11ae31c667fe60cc61c64cc30e6503ba29861217492474b6accda9a7"
     },
     "track_2a/docs/RELEASE_GATES.md": {
-      "bytes": 2663,
-      "sha256": "d831d0d12d16b1230d983bf7f004ecfc23ecb536e4c258d863f5d4b4ebdbbfd1"
+      "bytes": 2839,
+      "sha256": "3f8d60e680c0f747dc2140e47e67d72aaae1965f0570daf557c82a49c4ff5f9b"
     },
     "track_2a/docs/REMAINING_TESTS.md": {
       "bytes": 5915,
@@ -349,8 +349,8 @@
       "sha256": "d7df4f907d519ac2569b743cd279cffa2e6f77e6290e4f97f2feec470cceb2f3"
     },
     "track_2a/technical_report.md": {
-      "bytes": 17200,
-      "sha256": "851d5a4d6f687e7379f371fb0825add8aafbc695890fea376be27a2e89fc047e"
+      "bytes": 17188,
+      "sha256": "1f61f7717b6d1249a44a39eb7c5a788b3486e767231bcd5a9a7f7b997de535be"
     },
     "track_2a/tests/test_apertus_capture.py": {
       "bytes": 31354,
@@ -361,7 +361,7 @@
     "CANDIDATE_MANIFEST.json",
     "SHA256SUMS"
   ],
-  "release_description": "Documentation-cleaned successor to the 73-file assembled release; no new runtime or evaluation execution.",
+  "release_description": "Publication-status and report clarification successor to the verified public 73-file release; executable source, tests, prompts, schemas, locks and historical evidence unchanged.",
   "previous_release": {
     "file_count": 73,
     "candidate_manifest_sha256": "04fefc74672559e33c39c0684e8b6d856a99687587141ae57b3253cd0352c02f",
@@ -388,11 +388,12 @@
     "source_pin_readme_adaptations": [
       "track_2a/src/track_2a_converter/README.md",
       "track_2a/src/track_2a_comparison/README.md"
-    ]
+    ],
+    "record_scope": "Historical documentation cleanup before the pinned source publication; this status/report revision is recorded separately."
   },
   "historical_identity_list_note": "The prior 43-file mixed source/evidence identity list included three README files and .gitignore. Those documentation/ignore files changed in this cleanup; all 33 explicitly designated executable/build/test/prompt/schema/lock/security-pin files remain byte-identical.",
   "current_static_checks": {
-    "scope": "Source/data inspection only; Python syntax parsing does not import or execute project code.",
+    "scope": "Source-only inspection and syntax parsing for this metadata/report revision; no project imports or execution.",
     "file_count": 73,
     "manifest_payload_count": 71,
     "python_syntax_trees": 21,
@@ -448,6 +449,45 @@
       "track_2a/docs/HISTORICAL_FAILURES.md",
       "track_2a/docs/prompts/historical-apertus-system.txt"
     ],
-    "scope": "Retained manifests/logs describe their original source-only/mock reviews. In particular the dispatcher component manifest retains the pre-cleanup adapter README hash, and assembly counts describe the earlier baseline. Current documentation hashes are in this manifest. No historical result is relabeled as a fresh successor run."
+    "scope": "Retained manifests/logs describe their original source-only/mock reviews. In particular the dispatcher component manifest retains the pre-cleanup adapter README hash, and assembly counts describe the earlier baseline. Current documentation hashes are in this manifest. No historical result is relabeled as a fresh successor run.",
+    "pinned_unchanged_files": {
+      "track_2a/docs/HISTORICAL_FAILURES.md": "b3d4111e11ae31c667fe60cc61c64cc30e6503ba29861217492474b6accda9a7",
+      "track_2a/docs/prompts/historical-apertus-system.txt": "3866e2c166b12ba8956ae3f893af7520d6d2e3e3115361054d56040ef7cbda12",
+      "track_2a/docs/validation/assembly-static-check.json": "317f80e2ed02b30845e802502bc96caa1fe89d97ff938cbaa704d3408f6d2e71",
+      "track_2a/docs/validation/dispatcher-component-manifest.json": "e3c4b5c18e04cc04fb9e89f908ccd9226ed076070e217f0787880dd240f5d749",
+      "track_2a/docs/validation/dispatcher-guarded-optimized-tests.log": "0300080691da3ff46d3001743c3aef814ada11cf7eff8c3dd8b6cc0bce8ada31",
+      "track_2a/docs/validation/dispatcher-guarded-tests.log": "b382accb4dff960c465855eb218430a727e1aa34acfd634e323e25987a018225",
+      "track_2a/docs/validation/dispatcher-independent-tests.log": "fbcd4ad0eac1593a1d4c5ea746118c60be994fa25b1e6179d4b3eec949b6b42f"
+    },
+    "publication_status_note": "Retained historical receipts were not rewritten to reflect later publication. Their original counts, status and mock/source-only evidence remain historical."
+  },
+  "publication": {
+    "repository": "https://github.com/sumit1717/openparldata-pdf-review-hack-apertus",
+    "verified_source_release_commit": "a1c596d5552e519b838684ae2d04d7817fbe2062",
+    "verified_source_release_tree": "49e826af3fa8d01f90421c364b988b750e488f91",
+    "verified_source_release_file_count": 73,
+    "verified_source_release_manifest_sha256": "cdb590ce77ae6e37a331f2db3fb028384faf019e69cb822999d4895bce14a513",
+    "verification_scope": "Source release at the pinned commit was verified through GitHub repository metadata and all paths, blob identities, sizes and modes. The current metadata/report revision preserves its executable source; this record does not assert the revision is already at that commit.",
+    "visibility": "public",
+    "anonymous_rendering_verified": false,
+    "submission_completed": false
+  },
+  "publication_status_revision": {
+    "scope": "Correct the recorded stale publication-pending statements and matching report; remove the redundant summary eligibility-verdict sentence while preserving all factual missing-evidence disclosures.",
+    "changed_files": [
+      "CANDIDATE_MANIFEST.json",
+      "README.md",
+      "SHA256SUMS",
+      "SOURCE_PINS.json",
+      "track_2a/README.md",
+      "track_2a/Sumit_Aswal_Report.pdf",
+      "track_2a/docs/DEPENDENCIES_AND_ATTRIBUTION.md",
+      "track_2a/docs/RELEASE_GATES.md",
+      "track_2a/technical_report.md"
+    ],
+    "whole_file_additions": 0,
+    "whole_file_removals": 0,
+    "runtime_or_evaluation_execution": false,
+    "published_baseline_manifest_sha256": "cdb590ce77ae6e37a331f2db3fb028384faf019e69cb822999d4895bce14a513"
   }
 }

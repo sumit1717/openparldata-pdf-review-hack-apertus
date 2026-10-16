@@ -9,7 +9,7 @@ HackApertus Online | 16 October 2026 | Partial engineering result | Six pages
 
 OpenParlData PDF Review is a source-bound parliamentary extraction and review pipeline. It prepares local PDFs, constructs bounded Apertus requests, imports original responses under strict evidence checks, and presents candidates for review. Its central design rule is that a proposal, a recommendation and an adopted outcome must remain distinguishable. Missing evidence and conflicting statements stay visible. [1-3]
 
-The contribution currently established is **implemented source, a documented schema and tested capture-component contracts**. The isolated candidate has not completed a real-PDF-to-Apertus-to-review run, a clean-checkout Docker run or evaluation against a manually checked multilingual and multilevel reference. It is a partial engineering result, not a demonstrated working challenge submission. No semantic-accuracy or user-benefit result is claimed. [2-4]
+The contribution currently established is **implemented source, a documented schema and tested capture-component contracts**. The isolated candidate has not completed a real-PDF-to-Apertus-to-review run, a clean-checkout Docker run or evaluation against a manually checked multilingual and multilevel reference. No semantic-accuracy or user-benefit result is claimed. [2-4]
 
 ### Problem and intended use
 
@@ -26,7 +26,7 @@ The project does not assume that the OpenParlData API lacks these facts. Earlier
 | Apertus adapter | One-request capture with fixed destination, original-response retention and verified receipts. |
 | Review | Strict import ledger, offline source-first HTML and a bounded comparison worksheet. |
 
-This report covers the assembled 73-file release; its reviewed source baseline had 56 files. Source upload and submission remain pending.
+This report covers the 73-file release, derived from a reviewed 56-file source baseline. The source release is published; submission remains pending. [4]
 
 ---
 
@@ -146,7 +146,7 @@ The brief permits negative or partial insight, but no explicit converter/evaluat
 
 ### Release and reproducibility record
 
-The 73-file release extends the reviewed 56-file baseline with report and license/attribution files. Documentation cleanup preserves executable code, tests, prompts, schemas and locks. Licenses: Apache-2.0 code; CC-BY-4.0 documentation; CDLA-Permissive-2.0 authored data. Original history stays private; public source upload remains pending.
+The 73-file release extends the reviewed 56-file baseline with report and license/attribution files. Documentation cleanup preserves executable code, tests, prompts, schemas and locks. Licenses: Apache-2.0 code; CC-BY-4.0 documentation; CDLA-Permissive-2.0 authored data. Source publication is verified at a1c596d; original history stays private.
 
 The release contains authored code, prompts, tests and synthetic recipes, with no real parliamentary PDF/text fixture or provider capture. Small historical identifiers and date assertions remain. Future real-source redistribution requires item-specific rights review. Original dependency notices are included; project licenses do not relicense those dependencies or parliamentary sources. [2, 4]
 
@@ -165,7 +165,7 @@ These are historical 56-file baseline hashes. The current 73-file inventory is C
 
 **[3] Capture contract and component evidence.** track_2a/docs/APERTUS_CAPTURE_CONTRACT.md; src/apertus_capture/capture.py and README.md; docs/validation/dispatcher-component-manifest.json and normal, optimized and independent test logs. Adapter source SHA-256: f2244001e5304c9a3c68df72a2f8c637602f1f2826f6c70114698a76609a12cd. Mock tests do not authenticate real provider custody.
 
-**[4] Review scopes and open gates.** track_2a/docs/RELEASE_GATES.md, REMAINING_TESTS.md and DEPENDENCIES_AND_ATTRIBUTION.md. Retained validation/assembly-static-check.json and the 15 October independent review concern the earlier source baseline. Current assembled-file hashes are in CANDIDATE_MANIFEST.json. Documentation cleanup and static review add no runtime or semantic-evaluation credit.
+**[4] Review scopes and open gates.** track_2a/docs/RELEASE_GATES.md, REMAINING_TESTS.md and DEPENDENCIES_AND_ATTRIBUTION.md. Retained validation/assembly-static-check.json and the 15 October independent review concern the earlier source baseline. Current file hashes are in CANDIDATE_MANIFEST.json. Source publication at a1c596d is verified through repository metadata; anonymous rendering is unverified. No runtime or evaluation credit is added.
 
 **[5] Historical context.** track_2a/docs/HISTORICAL_FAILURES.md summarizes the actual H03, R11 and R12 failures without redistributing source/capture text. The separate six-page report Linked parliamentary decisions, 13 October 2026, records the earlier authored API-linked exhibit. Its raw historical evidence remains private. Neither contract nor evaluation credit transfers to this candidate.
 

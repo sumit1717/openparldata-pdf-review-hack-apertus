@@ -16,4 +16,4 @@ The original license files for all seven exact hash-locked wheels are retained u
 
 The report embeds DejaVu Sans subsets; the original companion [font notice](licenses/DejaVu-Sans-Notice.txt) is included. The project grants are approved and scoped in [LICENSE_POLICY.md](../../LICENSE_POLICY.md), with Apache-2.0 [LICENSE](../../LICENSE), CC-BY-4.0 documentation and CDLA-Permissive-2.0 authored-data texts. These grants do not replace third-party terms.
 
-AI assistance was used in implementation, report preparation and synthetic engineering review. It is not manual-human semantic gold. The public template-derived starter is 58272f3575871c894a9dbe381319c86fded26223; this local source upload remains pending.
+AI assistance was used in implementation, report preparation and synthetic engineering review. It is not manual-human semantic gold. The public source release was published at [a1c596d](https://github.com/sumit1717/openparldata-pdf-review-hack-apertus/commit/a1c596d5552e519b838684ae2d04d7817fbe2062), following template-derived starter 58272f3575871c894a9dbe381319c86fded26223. Submission remains pending.

@@ -14,7 +14,7 @@ A source-bound parliamentary PDF preparation and review pipeline: prepare native
 
 This is a documentation-cleaned successor to the 73-file release candidate, itself assembled from the reviewed 56-file source baseline. Executable code, tests, prompts, schemas, dependency locks and historical evidence are unchanged. Existing checks establish static identity and mocked capture-component behavior only. Real-PDF/provider execution, clean-checkout Docker verification, actual manually checked multilingual/multilevel references and a supported real comparison with baselines remain open. All candidates remain unadjudicated and answer-ineligible.
 
-[Public repository](https://github.com/sumit1717/openparldata-pdf-review-hack-apertus): the verified template starter is `58272f3575871c894a9dbe381319c86fded26223`. Source upload and submission remain pending. Original development history remains private.
+[Public repository](https://github.com/sumit1717/openparldata-pdf-review-hack-apertus): source publication is verified at [a1c596d](https://github.com/sumit1717/openparldata-pdf-review-hack-apertus/commit/a1c596d5552e519b838684ae2d04d7817fbe2062), following template starter `58272f3575871c894a9dbe381319c86fded26223`. Submission remains pending. Public visibility is verified through repository metadata; anonymous rendering is unverified. Original development history remains private.
 
 ## Licensing
 

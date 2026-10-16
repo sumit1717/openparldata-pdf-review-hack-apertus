@@ -1,5 +1,5 @@
 {
-  "status": "approved_original_source_release_candidate_not_uploaded_or_submission_ready",
+  "status": "published_original_source_with_incomplete_runtime_and_semantic_evaluation",
   "source_repository": "sumit1717/doru-formrehearsal",
   "source_commit": "7c41afde120ccbd3671684ed620ba529c30e309f",
   "template_repository": "HackApertus/project-template",
@@ -198,5 +198,13 @@
   ],
   "public_repository": "https://github.com/sumit1717/openparldata-pdf-review-hack-apertus",
   "public_template_starter_commit": "58272f3575871c894a9dbe381319c86fded26223",
-  "provenance_note": "Original private source locations remain historical provenance, not publicly accessible dependencies. Two component READMEs are documented adaptations of the pinned upstream sources; their original blob/SHA-256 values remain unchanged and current destination hashes are recorded separately. Runtime code, schemas, prompts, tests and locks are unchanged. Other historical manifests and test records remain immutable and retain their original scopes."
+  "provenance_note": "Original private source locations remain historical provenance, not publicly accessible dependencies. Two component READMEs are documented adaptations of the pinned upstream sources; their original blob/SHA-256 values remain unchanged and current destination hashes are recorded separately. Runtime code, schemas, prompts, tests and locks are unchanged. Other historical manifests and test records remain immutable and retain their original scopes.",
+  "publication": {
+    "repository": "https://github.com/sumit1717/openparldata-pdf-review-hack-apertus",
+    "verified_source_release_commit": "a1c596d5552e519b838684ae2d04d7817fbe2062",
+    "verified_source_release_tree": "49e826af3fa8d01f90421c364b988b750e488f91",
+    "verification_scope": "Published 73-file source release verified through GitHub metadata, paths, blob identities, sizes and modes. This record does not assert anonymous browser rendering, fresh runtime execution or final submission.",
+    "anonymous_rendering_verified": false,
+    "submission_completed": false
+  }
 }

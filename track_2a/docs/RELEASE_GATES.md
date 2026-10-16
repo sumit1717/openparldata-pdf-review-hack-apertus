@@ -1,6 +1,6 @@
 # Remaining evidence and release gates
 
-This documentation-cleaned source candidate remains a partial engineering result. Identity, title and scoped original-project licenses are confirmed. The public template repository exists; source upload and submission remain pending.
+This documentation-cleaned source candidate remains a partial engineering result. Identity, title and scoped original-project licenses are confirmed. The source release is published at [a1c596d](https://github.com/sumit1717/openparldata-pdf-review-hack-apertus/commit/a1c596d5552e519b838684ae2d04d7817fbe2062); submission remains pending. Publication adds no runtime, provider or semantic-evaluation evidence.
 
 ## Evidence needed for a working challenge submission
 
