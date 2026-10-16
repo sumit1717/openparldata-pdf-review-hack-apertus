@@ -109,8 +109,8 @@
       "sha256": "d24c92d5ede30b29c4637e8f398a00f8b9da39c885f89f2e7833634313dfa44f"
     },
     "README.md": {
-      "bytes": 2588,
-      "sha256": "1d59e20cee6192d3926a720abd33321e35c17fab152b76568f0ecc7f7eb0e6b5"
+      "bytes": 2595,
+      "sha256": "4738c8270ecb1e2e33f73857a434861a65f6f0128491799b7b056a8928d541f7"
     },
     "SOURCE_PINS.json": {
       "bytes": 14148,
@@ -121,16 +121,16 @@
       "sha256": "7d3ab2405914128eda0c8e7a4ca98fcab94773ecec980db38b86d78cab2796d5"
     },
     "track_2a/README.md": {
-      "bytes": 7552,
-      "sha256": "0eca9190dca122c0d19a8f005434018f38ea357bbb8d06bc8547281a62f38f30"
+      "bytes": 7532,
+      "sha256": "70d943552ed5bba2e95948be121f87f787167fde2684c72fc79a184a9ed3ea79"
     },
     "track_2a/Sumit_Aswal_Report.pdf": {
       "bytes": 61775,
       "sha256": "eb1d0709bf61f03cf708b59bef0734aa84660cfcf527303de928ee7a8c0fd9db"
     },
     "track_2a/data/README.md": {
-      "bytes": 1427,
-      "sha256": "84bc548ddda21e291e7bc9aced81848df32334d5815728ec3d09b229968ab505"
+      "bytes": 1417,
+      "sha256": "b10dae42a8c8539d58fab2f5bd9378d7a14e6790ccfd497dd0188e308367c4f8"
     },
     "track_2a/docs/APERTUS_CAPTURE_CONTRACT.md": {
       "bytes": 5243,

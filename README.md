@@ -18,4 +18,4 @@ This is a documentation-cleaned successor to the 73-file release candidate, itse
 
 ## Licensing
 
-Original code/build configuration: Apache-2.0. Original documentation, prompts and report: CC-BY-4.0. Authored synthetic data: CDLA-Permissive-2.0. Third-party material retains its own terms. See [LICENSE_POLICY.md](LICENSE_POLICY.md), [NOTICE](NOTICE) and [dependency attribution](track_2a/docs/DEPENDENCIES_AND_ATTRIBUTION.md). No real parliamentary corpus or provider capture is redistributed. AI assistance is disclosed and is not manual-human gold.
+Original code/build configuration: Apache-2.0. Original documentation, prompts and report: CC-BY-4.0. Authored synthetic data: CDLA-Permissive-2.0. Third-party material retains its own terms. See [LICENSE_POLICY.md](LICENSE_POLICY.md), [NOTICE](NOTICE) and [dependency attribution](track_2a/docs/DEPENDENCIES_AND_ATTRIBUTION.md). No real parliamentary corpus or provider capture is redistributed. The synthetic examples are not manually checked reference data.

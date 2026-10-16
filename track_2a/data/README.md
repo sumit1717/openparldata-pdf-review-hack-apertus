@@ -8,4 +8,4 @@ Keep separately acquired real inputs outside the repository or in ignored `data/
 
 ## Confirmed authored data license
 
-Original synthetic literal example/test data is offered under CDLA-Permissive-2.0; executable recipe code remains Apache-2.0. See [DATA_LICENSES.json](../../DATA_LICENSES.json) and [LICENSE_POLICY.md](../../LICENSE_POLICY.md). No generated model capture or manually checked gold is included. AI assistance does not turn these recipes into human reference evidence.
+Original synthetic literal example/test data is offered under CDLA-Permissive-2.0; executable recipe code remains Apache-2.0. See [DATA_LICENSES.json](../../DATA_LICENSES.json) and [LICENSE_POLICY.md](../../LICENSE_POLICY.md). No generated model capture or manually checked gold is included. These synthetic examples are not human-checked reference data.
