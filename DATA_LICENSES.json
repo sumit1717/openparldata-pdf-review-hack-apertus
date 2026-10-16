@@ -1,0 +1,42 @@
+{
+  "status": "owner_approved_scoped_grants",
+  "license_text": "track_2a/docs/licenses/CDLA-Permissive-2.0.txt",
+  "grant_scope": "Authored synthetic literal dataset material only; executable modules remain Apache-2.0. No third-party source rights or exclusive AI-output ownership asserted.",
+  "generated_outputs_included": false,
+  "human_gold": false,
+  "provider_captures_included": false,
+  "recipes": [
+    {
+      "path": "track_2a/src/track_2a_converter/fixture_demo.py",
+      "sha256": "4f3f6150e0f70df24027d7cdf5d16d7d54da0f7432855c860f9b00b0ce1a3ec0",
+      "code_license": "Apache-2.0",
+      "synthetic_literal_data_license": "CDLA-Permissive-2.0",
+      "human_gold": false,
+      "provider_output": false
+    },
+    {
+      "path": "track_2a/src/track_2a_converter/tests/fixtures.py",
+      "sha256": "d159b218b30168f54b0ca4a8a31ab024c92759022fdcfba452c13a5a3489dfa0",
+      "code_license": "Apache-2.0",
+      "synthetic_literal_data_license": "CDLA-Permissive-2.0",
+      "human_gold": false,
+      "provider_output": false
+    },
+    {
+      "path": "track_2a/src/track_2a_comparison/demo.py",
+      "sha256": "2a7eb2f93286a309280b0a7b49ba16aefc808c871404e1b9e9b3d349e1017fd0",
+      "code_license": "Apache-2.0",
+      "synthetic_literal_data_license": "CDLA-Permissive-2.0",
+      "human_gold": false,
+      "provider_output": false
+    },
+    {
+      "path": "track_2a/tests/test_apertus_capture.py",
+      "sha256": "92e900220f5d724635e1fed606872f3b4fe4258e651acffdbc93e78d56aae61c",
+      "code_license": "Apache-2.0",
+      "synthetic_literal_data_license": "CDLA-Permissive-2.0",
+      "human_gold": false,
+      "provider_output": false
+    }
+  ]
+}

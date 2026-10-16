@@ -1,0 +1,29 @@
+OpenParlData PDF Review
+Copyright 2026 Sumit Aswal, to the extent of rights held.
+Project source: https://github.com/sumit1717/openparldata-pdf-review-hack-apertus
+
+HackApertus project template
+https://github.com/HackApertus/project-template
+Source layout reference: 09f8e9e2b588db3325869b23c6d5132f5c3756f7.
+Public template-derived repository starter: 58272f3575871c894a9dbe381319c86fded26223.
+The implementation and report replace the starter examples; runtime source is
+carried unchanged from the reviewed original-source candidate. The template
+uses Apache-2.0, and its report scaffold names CC-BY-4.0. Original-project scope
+is separately defined by LICENSE_POLICY.md. This file is attribution, not a
+claim of organizer acceptance or successful runtime verification.
+
+Python dependency notices are retained from the exact hash-locked wheels in
+track_2a/docs/licenses/. No installed dependencies, wheels, image, model weights
+or tokenizer are redistributed in this source candidate. Keep original package
+and image notices if distributing a built runtime later.
+
+Apertus v1.5 70B by the Swiss AI Initiative is the requested model of the
+optional CSCS adapter. This candidate establishes no actual provider execution
+or model-serving revision. Its weight license is not asserted to license output.
+
+DejaVu Sans and DejaVu Sans Bold subsets are embedded in the report.
+Bitstream Vera copyright 2003 Bitstream, Inc.; Arev glyphs copyright 2006
+Tavmjong Bah; DejaVu changes public domain. Original font notice accompanies
+the report in track_2a/docs/licenses/DejaVu-Sans-Notice.txt.
+
+This NOTICE is attribution information and does not modify any license.

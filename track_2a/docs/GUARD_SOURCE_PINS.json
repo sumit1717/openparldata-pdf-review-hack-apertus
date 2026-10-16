@@ -1,0 +1,30 @@
+[
+  {
+    "destination": "track_2a/src/tools/product_improvements_v1/run_offline.py",
+    "sha256": "868700e1251bbae814a19f5fb335f0254c4ab44f54c6503e9bc51a50daeab762",
+    "bytes": 2621,
+    "operation": "unchanged source-only copy",
+    "role": "existing kernel/socket/process-denial test guard; no product execution"
+  },
+  {
+    "destination": "track_2a/src/evaluation/fixed-slot-diagnostic-v1/run-affected-checks.py",
+    "sha256": "a6530d1c7d956c3f6294f182097cad36c81b288d251ffb8e1aa2b6c35bdf712b",
+    "bytes": 16492,
+    "operation": "unchanged source-only copy",
+    "role": "existing kernel/socket/process-denial test guard; no product execution"
+  },
+  {
+    "destination": "track_2a/src/tools/product_offline_v3/offline-node.mjs",
+    "sha256": "f00762a085bb5cc13961047f174dab01c4183edd8e39319caa77acfdc8c07edc",
+    "bytes": 1502,
+    "operation": "unchanged source-only copy",
+    "role": "existing kernel/socket/process-denial test guard; no product execution"
+  },
+  {
+    "destination": "track_2a/src/tests/run_guarded.py",
+    "sha256": "80c27d1b079c26e58c46bcf819b4d66b21bd2fa9a8813ce5d3d44e9b154f4931",
+    "bytes": 872,
+    "operation": "unchanged source-only copy",
+    "role": "existing kernel/socket/process-denial test guard; no product execution"
+  }
+]

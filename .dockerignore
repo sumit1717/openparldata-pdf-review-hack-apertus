@@ -1,0 +1,14 @@
+*
+!Dockerfile
+!track_2a/
+!track_2a/requirements/
+!track_2a/requirements/base.lock
+!track_2a/src/
+!track_2a/src/**
+!track_2a/tests/
+!track_2a/tests/**
+**/__pycache__/
+**/*.pyc
+**/.env
+**/.env.*
+**/artifacts/

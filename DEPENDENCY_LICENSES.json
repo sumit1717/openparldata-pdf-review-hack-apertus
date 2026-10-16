@@ -1,0 +1,112 @@
+{
+  "scope": "exact hash-locked wheel license files; archive inspection only",
+  "dependencies": [
+    {
+      "package": "attrs",
+      "version": "26.1.0",
+      "wheel": "attrs-26.1.0-py3-none-any.whl",
+      "wheel_sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "license_files": [
+        {
+          "wheel_member": "attrs-26.1.0.dist-info/licenses/LICENSE",
+          "path": "track_2a/docs/licenses/attrs-26.1.0-LICENSE.txt",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+          "bytes": 1109
+        }
+      ],
+      "installed_or_executed": false
+    },
+    {
+      "package": "jsonschema",
+      "version": "4.26.0",
+      "wheel": "jsonschema-4.26.0-py3-none-any.whl",
+      "wheel_sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "license_files": [
+        {
+          "wheel_member": "jsonschema-4.26.0.dist-info/licenses/COPYING",
+          "path": "track_2a/docs/licenses/jsonschema-4.26.0-COPYING.txt",
+          "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+          "bytes": 1057
+        }
+      ],
+      "installed_or_executed": false
+    },
+    {
+      "package": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "wheel": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "wheel_sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "license_files": [
+        {
+          "wheel_member": "jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+          "path": "track_2a/docs/licenses/jsonschema_specifications-2025.9.1-COPYING.txt",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+          "bytes": 1057
+        }
+      ],
+      "installed_or_executed": false
+    },
+    {
+      "package": "pypdf",
+      "version": "6.10.0",
+      "wheel": "pypdf-6.10.0-py3-none-any.whl",
+      "wheel_sha256": "90005e959e1596c6e6c84c8b0ad383285b3e17011751cedd17f2ce8fcdfc86de",
+      "license_files": [
+        {
+          "wheel_member": "pypdf-6.10.0.dist-info/licenses/LICENSE",
+          "path": "track_2a/docs/licenses/pypdf-6.10.0-LICENSE.txt",
+          "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524",
+          "bytes": 1605
+        }
+      ],
+      "installed_or_executed": false
+    },
+    {
+      "package": "referencing",
+      "version": "0.37.0",
+      "wheel": "referencing-0.37.0-py3-none-any.whl",
+      "wheel_sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "license_files": [
+        {
+          "wheel_member": "referencing-0.37.0.dist-info/licenses/COPYING",
+          "path": "track_2a/docs/licenses/referencing-0.37.0-COPYING.txt",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+          "bytes": 1057
+        }
+      ],
+      "installed_or_executed": false
+    },
+    {
+      "package": "rpds-py",
+      "version": "2026.6.3",
+      "wheel": "rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "wheel_sha256": "ecabd69db66de867690f9797f2f8fa27ba501bbc24540cbdbdc649cd15888ba6",
+      "license_files": [
+        {
+          "wheel_member": "rpds_py-2026.6.3.dist-info/licenses/LICENSE",
+          "path": "track_2a/docs/licenses/rpds_py-2026.6.3-LICENSE.txt",
+          "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+          "bytes": 1057
+        }
+      ],
+      "installed_or_executed": false
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.16.0",
+      "wheel": "typing_extensions-4.16.0-py3-none-any.whl",
+      "wheel_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "license_files": [
+        {
+          "wheel_member": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "path": "track_2a/docs/licenses/typing_extensions-4.16.0-LICENSE.txt",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "bytes": 13936
+        }
+      ],
+      "installed_or_executed": false
+    }
+  ],
+  "source_distribution_contains_wheels": false,
+  "source_distribution_contains_base_image": false
+}

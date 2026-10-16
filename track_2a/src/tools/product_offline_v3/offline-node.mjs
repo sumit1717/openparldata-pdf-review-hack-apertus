@@ -1,0 +1,26 @@
+// Review scope enforcement. Pure in-process tests only; no I/O transports or subprocesses.
+import net from 'node:net';
+import tls from 'node:tls';
+import http from 'node:http';
+import https from 'node:https';
+import http2 from 'node:http2';
+import dgram from 'node:dgram';
+import dns from 'node:dns';
+import childProcess from 'node:child_process';
+import workerThreads from 'node:worker_threads';
+import {syncBuiltinESMExports} from 'node:module';
+const denied = function () { throw new Error('INDEPENDENT_OFFLINE_GUARD: networking, listeners, subprocesses and workers are prohibited'); };
+net.Server.prototype.listen = denied;
+net.Socket.prototype.connect = denied;
+net.connect = net.createConnection = net.createServer = denied;
+tls.connect = tls.createServer = denied;
+http.request = http.get = http.createServer = denied;
+https.request = https.get = https.createServer = denied;
+http2.connect = http2.createServer = http2.createSecureServer = denied;
+dgram.createSocket = denied;
+for (const key of Object.keys(dns)) if (/^(lookup|resolve|reverse)/.test(key) && typeof dns[key] === 'function') dns[key] = denied;
+for (const key of Object.keys(dns.promises)) if (/^(lookup|resolve|reverse)/.test(key) && typeof dns.promises[key] === 'function') dns.promises[key] = denied;
+for (const key of ['spawn','spawnSync','exec','execSync','execFile','execFileSync','fork']) childProcess[key] = denied;
+workerThreads.Worker = denied;
+globalThis.fetch = globalThis.WebSocket = denied;
+syncBuiltinESMExports();

@@ -1,0 +1,49 @@
+{
+  "scope": "static-source-only",
+  "status": "pass",
+  "file_count": 53,
+  "python_syntax_files": [
+    "track_2a/src/apertus_capture/__init__.py",
+    "track_2a/src/apertus_capture/__main__.py",
+    "track_2a/src/apertus_capture/capture.py",
+    "track_2a/src/cli.py",
+    "track_2a/src/evaluation/fixed-slot-diagnostic-v1/run-affected-checks.py",
+    "track_2a/src/tests/run_guarded.py",
+    "track_2a/src/tools/product_improvements_v1/run_offline.py",
+    "track_2a/src/track_2a_comparison/__init__.py",
+    "track_2a/src/track_2a_comparison/demo.py",
+    "track_2a/src/track_2a_comparison/tests/test_worksheet.py",
+    "track_2a/src/track_2a_comparison/worksheet.py",
+    "track_2a/src/track_2a_converter/__init__.py",
+    "track_2a/src/track_2a_converter/compatibility_diagnostic.py",
+    "track_2a/src/track_2a_converter/fixture_demo.py",
+    "track_2a/src/track_2a_converter/pipeline.py",
+    "track_2a/src/track_2a_converter/tests/fixtures.py",
+    "track_2a/src/track_2a_converter/tests/test_pdf_compatibility.py",
+    "track_2a/src/track_2a_converter/tests/test_pipeline.py",
+    "track_2a/src/track_2a_gap_ledger/ledger.py",
+    "track_2a/src/worksheet_tests.py",
+    "track_2a/tests/test_apertus_capture.py"
+  ],
+  "json_files": [
+    "SOURCE_PINS.json",
+    "track_2a/docs/GUARD_SOURCE_PINS.json",
+    "track_2a/docs/validation/dispatcher-component-manifest.json",
+    "track_2a/src/track_2a_converter/response.schema.json",
+    "track_2a/src/track_2a_gap_ledger/schemas/ledger.schema.json"
+  ],
+  "upstream_components_checked": 20,
+  "adapter_sealed_source_files_checked": 5,
+  "guard_source_files_checked": 4,
+  "project_modules_imported": false,
+  "application_or_pdf_runtime": false,
+  "shell_or_docker_executed": false,
+  "provider_calls": 0,
+  "credentials_read": false,
+  "installs": false,
+  "publication": false,
+  "limitations": [
+    "Shell and Docker controls inspected as text, not executed.",
+    "This is not dependency/runtime validity, extraction quality, human gold or submission eligibility."
+  ]
+}

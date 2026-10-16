@@ -1,0 +1,27 @@
+PINNED_SECCOMP_VERIFIED socket_creation=EPERM
+PURE_PROCESS_AND_SOCKET_AUDIT_ENABLED
+test_corrupt_receipt_never_publishes_index (__main__.IndependentDispatcherTests.test_corrupt_receipt_never_publishes_index) ... ok
+test_duplicate_assistant_json_is_not_repaired (__main__.IndependentDispatcherTests.test_duplicate_assistant_json_is_not_repaired) ... ok
+test_env_selectors_allow_only_fixed_origin_and_model (__main__.IndependentDispatcherTests.test_env_selectors_allow_only_fixed_origin_and_model) ... ok
+test_exact_source_and_guards (__main__.IndependentDispatcherTests.test_exact_source_and_guards) ... ok
+test_explicit_send_reads_only_mock_key_and_never_logs_it (__main__.IndependentDispatcherTests.test_explicit_send_reads_only_mock_key_and_never_logs_it) ... ok
+test_http_error_and_unattempted_denominator (__main__.IndependentDispatcherTests.test_http_error_and_unattempted_denominator) ... ok
+test_index_is_last_after_receipt_readback_and_full_verification (__main__.IndependentDispatcherTests.test_index_is_last_after_receipt_readback_and_full_verification) ... ok
+test_index_write_failure_retains_receipt_but_verification_rejects (__main__.IndependentDispatcherTests.test_index_write_failure_retains_receipt_but_verification_rejects) ... ok
+test_inspect_and_bad_config_never_access_key (__main__.IndependentDispatcherTests.test_inspect_and_bad_config_never_access_key) ... ok
+test_legacy_or_substituted_response_contract_cannot_enter (__main__.IndependentDispatcherTests.test_legacy_or_substituted_response_contract_cannot_enter) ... ok
+test_nonempty_candidate_import_is_only_structural (__main__.IndependentDispatcherTests.test_nonempty_candidate_import_is_only_structural) ... ok
+test_original_envelope_tamper_invalidates_custody (__main__.IndependentDispatcherTests.test_original_envelope_tamper_invalidates_custody) ... ok
+test_original_tampering_before_publication_blocks_index (__main__.IndependentDispatcherTests.test_original_tampering_before_publication_blocks_index) ... ok
+test_out_of_scope_anchor_is_rejected (__main__.IndependentDispatcherTests.test_out_of_scope_anchor_is_rejected) ... ok
+test_receipt_write_failure_remains_unverified_and_nonresumable (__main__.IndependentDispatcherTests.test_receipt_write_failure_remains_unverified_and_nonresumable) ... ok
+test_unexpected_file_invalidates_verified_capture (__main__.IndependentDispatcherTests.test_unexpected_file_invalidates_verified_capture) ... ok
+test_verify_does_not_read_runtime_environment_or_key (__main__.IndependentDispatcherTests.test_verify_does_not_read_runtime_environment_or_key) ... ok
+test_wrong_binding_retained_and_rejected (__main__.IndependentDispatcherTests.test_wrong_binding_retained_and_rejected) ... ok
+test_wrong_evidence_quote_retained_and_rejected (__main__.IndependentDispatcherTests.test_wrong_evidence_quote_retained_and_rejected) ... ok
+test_wrong_request_id_is_rejected_not_rebound (__main__.IndependentDispatcherTests.test_wrong_request_id_is_rejected_not_rebound) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.324s
+
+OK
